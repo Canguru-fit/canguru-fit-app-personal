@@ -8,7 +8,7 @@ on:
 env:
   VITE_API: ${{ vars.VITE_API }}
   VITE_NODE_ENV: ${{ vars.VITE_NODE_ENV }}
-  AWS_S3_BUCKET: ${{ vars.AWS_BUCKET }}
+  AWS_BUCKET: ${{ vars.AWS_BUCKET }}
   AWS_DISTRIBUTION: ${{ vars.AWS_DISTRIBUTION }}
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
